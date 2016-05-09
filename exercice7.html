@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <title></title>
+  </head>
+  <body>
+    <form method="post" action="">
+      <fieldset id="bloc1">
+        <legend>Votre Identité</legend>
+        <ol>
+          <li><label for="Nom">Nom :</label>
+        <input type="text" name="Nom" id="Nom" placeholder="Nom" size="30" maxlength="10" /></li>
+          <li><label for="Prénom">Prénom:</label>
+        <input type="text" name="Prénom" id="Prénom" placeholder="Prénom" size="30" maxlength="10" /></li>
+          <li><label for="Adresse mail">Adresse mail :</label>
+        <input type="text" name="Adresse mail" id="Adresse mail" placeholder="Adresse mail" size="30" maxlength="10" /></li>
+        </ol>
+      </fieldset>
+      <fieldset id="bloc2">
+        <legend>Adresse de livraison</legend>
+        <ol>
+          <li><label for="adresse">Adresse :</label>
+        <textarea type="text" name="Adresse" rows="4" cols="15"></textarea></li>
+          <li><label for="Code postal">Code postal :</label>
+        <input type="text" name="Code postal" id="Code postal" placeholder="Code postal"size="30" maxlength="10" /></li>
+          <li><label for="Ville">Ville</label>
+        <input type="text" name="Ville" id="Ville" placeholder="Ville"size="30" maxlength="10"/></li>
+        </ol>
+      </fieldset>
+      <fieldset id="bloc3">
+        <legend>Informations de réglement</legend>
+        <ol>
+          <li>Type de carte bancaire :
+        <br><input type="Radio" name="réglement" value="Visa" id="Visa" placeholder="Visa"/>
+        <label for="Visa">Visa</label>
+        <br/><input type="Radio" name="réglement" value="Mastercard" id="Mastercard" placeholder="Mastercard"/>
+        <label for="Mastercard">Mastercard</label>
+          <li><label for="Numéro carte">Numéro de carte :</label>
+        <input type="text" name="Numéro" id="Numéro" placeholder="Numéro de carte" size="30" maxlength="10"/></li>
+          <li><label for="Code de sécurité">Code de sécurité:</label>
+        <input type="text" name="code" id="code" placeholder="Code de sécurité" size="30" maxlength="10" /></li>
+          <li><label for="Nom du titulaire">Nom du titulaire :</label>
+        <input type="text" name="titulaire" id="titulaire" placeholder="Nom du titulaire" size="30" maxlength="10" /></li>
+        </ol>
+      </fieldset>
+      <input type="submit" value="J'achète !">
+    </form>
+  </body>
+</html>
